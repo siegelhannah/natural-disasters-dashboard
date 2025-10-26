@@ -1,0 +1,74 @@
+/* stylesheet for Final Project Dash App */
+
+body {
+    background-color: #f5fcf7; /* background color */
+}
+
+/* Global card styling */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Card headers */
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #e9ecef;
+    padding: 12px;
+}
+
+/* Global filters row */
+.filters-row {
+    background-color: #fcfffd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 3px solid #b7e8c5;
+    margin: 20px 0;
+}
+
+.filter-label {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;
+}
+
+/* checkbox items as bullet points */
+#impact-metric .form-check {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Graph card styling */
+.graph-card .card-body {
+    padding: 10px;
+}
+
+/* Slider container styling */
+.slider-container {
+    background-color: #f0f0f0;
+    padding: 5px 20px;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+}
+
+/* Make plots more visible */
+.js-plotly-plot {
+    width: 100%;
+}
+
+/* Reduce spacing between chart rows */
+.mb-4 {
+    margin-bottom: 1rem !important;  /* Reduce from default 1.5rem */
+}
+
+/* Style for caption text */
+.caption-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-align: center;
+    padding: 0 15px 10px;
+}
