@@ -35,15 +35,3 @@ Data is sourced from the EM-DAT International Disaster Database.
    open browser and go to http://127.0.0.1:8051
    ```
 
-## Project Structure
-```kotlin
-├── Dash_App_Final.py
-├── requirements.txt
-├── data/
-│   └── cleaned_disaster_data.csv
-├── assets/
-│   └── styles.css
-└── README.md
-```
-
-
